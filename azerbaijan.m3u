@@ -1,6 +1,6 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="APATv.az@SD" tvg-logo="https://i.imgur.com/2CSW4V4.png" group-title="News",APA Tv
-http://stream.apa.tv/apastream/index.m3u8
+#EXTINF:-1 tvg-id="ARB24.az@SD" tvg-logo="https://i.imgur.com/mtvIFyq.png" group-title="News",ARB 24
+https://operativmm.az/tvs/arb24/stream/index.m3u8
 #EXTINF:-1 tvg-id="AyazTV.az@SD" tvg-logo="https://www.ayaztv.com/storage/assets/site_logo.png" group-title="General",Ayaz TV
 https://janya-ayaztv.vgcdn.net/ptnr-WebApp/title-Ayaz_TV/v1/vglive-sk-934820/720p/720p.m3u8
 #EXTINF:-1 tvg-id="AzTV.az@SD" tvg-logo="https://i.imgur.com/snBMMeH.png" group-title="General",Az TV
@@ -9,8 +9,8 @@ https://operativmm.az/tvs/az/stream9/index.m3u8
 https://rtmp.baku.tv/hls/bakutv.m3u8
 #EXTINF:-1 tvg-id="CBCSport.az@HD" tvg-logo="https://i.imgur.com/3mEdjuq.png" group-title="Sports",CBC Sport [Geo-blocked]
 https://cbcsports-live.lg.mncdn.com/cbcsports_live/cbcsports/playlist.m3u8
-#EXTINF:-1 tvg-id="ELTV.az@SD" tvg-logo="https://i.imgur.com/tTlokZ2.png" group-title="General",EL TV (260p)
-http://85.132.53.162:1935/live/eltv/playlist.m3u8
+#EXTINF:-1 tvg-id="ELTV.az@SD" tvg-logo="https://i.imgur.com/tTlokZ2.png" group-title="General",EL TV [Not 24/7]
+https://live.eltv.az/live/eltv/playlist.m3u8
 #EXTINF:-1 tvg-id="GunAzTV.us@SD" tvg-logo="https://i.imgur.com/2ZnQazl.png" group-title="General",GunAz TV
 https://tv.gunaz.tv/hls/live.m3u8
 #EXTINF:-1 tvg-id="IctimaiTV.az@SD" tvg-logo="https://i.imgur.com/HzY4VMo.png" group-title="General",Ictimai TV [Geo-blocked]
@@ -41,21 +41,23 @@ https://www.youtube.com/channel/UCgHYcHd2SuX0ees5q0OWicQ/live
 https://www.youtube.com/channel/UCjpoTfA8TXO6QfAWiAB67eA/live
 #EXTINF:-1 tvg-name="MTV Azerbaijan Ⓢ" tvg-logo="https://i.imgur.com/lSBMeBU.png" tvg-id="MTVAzerbaijan.az" tvg-country="AZ" group-title="Azerbaijan",MTV Azerbaijan Ⓢ Ⓨ
 https://www.youtube.com/@MTVAzerbaijan/live
-#EXTINF:-1 tvg-id="AyazTV.az@HD" tvg-logo="https://i.ibb.co/Nd4r4hLg/image.png",Ayaz TV HD
+#EXTINF:-1 tvg-id="APATV.az@HD",APA TV HD
+http://stream.apa.tv/apastream/index.m3u8
+#EXTINF:-1 tvg-id="AyazTV.az@HD",Ayaz TV HD
 https://janya-ayaztv.vgcdn.net/ptnr-WebApp/title-Ayaz_TV/v1/vglive-sk-934820/1080p/1080p.m3u8
-#EXTINF:-1 tvg-id="AzTV.az@SD" tvg-logo="https://yoda.az/logos/aztv.svg",Az TV
+#EXTINF:-1 tvg-id="AzTV.az@SD",Az TV
 #EXTVLCOPT:http-referrer=https://tvstream.az/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://az.tvstream.az/hls/stream9/index.m3u8
 #EXTINF:-1 tvg-id="AzTV.az@HD",Az TV HD [Geo-blocked]
 http://185.32.44.154:80/aztv/index.m3u8
-#EXTINF:-1 tvg-id="AzTV.az@SD" tvg-logo="https://yoda.az/logos/aztv.svg",Az TV
+#EXTINF:-1 tvg-id="AzTV.az@SD",Az TV
 https://stream8.cinerama.uz/1455/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="Idman.az@HD" tvg-logo="https://yoda.az/logos/idman.svg",İdman TV HD [Geo-blocked]
+#EXTINF:-1 tvg-id="Idman.az@HD",İdman TV HD [Geo-blocked]
 http://172.110.210.14:80/gQUkHt52/jAZUsz6/2021633
-#EXTINF:-1 tvg-id="Idman.az@SD" tvg-logo="https://yoda.az/logos/idman.svg",İdman TV [Geo-blocked]
+#EXTINF:-1 tvg-id="Idman.az@SD",İdman TV [Geo-blocked]
 http://185.32.44.154:80/idmanaz/index.m3u8
-#EXTINF:-1 tvg-id="Idman.az@HD" tvg-logo="https://yoda.az/logos/idman.svg",İdman TV
+#EXTINF:-1 tvg-id="Idman.az@HD",İdman TV
 #EXTVLCOPT:http-referrer=https://tvstream.az/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://idman.tvstream.az/hls/stream4/stream.m3u8
@@ -63,25 +65,21 @@ https://idman.tvstream.az/hls/stream4/stream.m3u8
 http://185.32.44.154:80/medeniyyet/index.m3u8
 #EXTINF:-1 tvg-id="AzadTV.az@HD",Azad TV HD
 https://lives.atv.az:5443/ATV_TV_STREAM/streams/atvcanli.m3u8
-#EXTINF:-1 tvg-id="AzStarTV.az@HD" tvg-logo="https://azstartv.com/images/logo.png",Azstar TV HD
+#EXTINF:-1 tvg-id="AzStarTV.az@HD",Azstar TV HD
 https://live.livestreamtv.ca/azstar/amlst:azstar/playlist.m3u8
-#EXTINF:-1 tvg-id="BakuTV.az@HD" tvg-logo="https://yoda.az/logos/bakutv.webp",Baku TV HD
+#EXTINF:-1 tvg-id="BakuTV.az@HD",Baku TV HD
 https://rtmp.baku.tv/hls/bakutv_1080p.m3u8
-#EXTINF:-1 tvg-id="ELTV.az@SD" tvg-logo="https://yoda.az/logos/eltv_logo.png",EL TV [Not 24/7]
-https://live.eltv.az/live/eltv/playlist.m3u8
-#EXTINF:-1 tvg-id="RealTV.az@HD" tvg-logo="https://yoda.az/logos/real.svg",Real TV
+#EXTINF:-1 tvg-id="RealTV.az@HD",Real TV
 http://185.118.50.218:80/realtv/video.m3u8
-#EXTINF:-1 tvg-id="ShowPlusTV.az@HD" tvg-logo="https://i.ibb.co/DHy7htsG/image.png",Show Plus TV
+#EXTINF:-1 tvg-id="ShowPlusTV.az@HD",Show Plus TV
 https://rtmp.showplus.tv/hls/myshow.m3u8
-#EXTINF:-1 tvg-id="SonUmidTV.az@SD" tvg-logo="https://sonumidtv.az/assets/img/logo.png",Son Umid TV
+#EXTINF:-1 tvg-id="SonUmidTV.az@SD",Son Umid TV
 https://cdn-sonumidtv.yayin.com.tr/sonumidtv/sonumidtv/chunklist.m3u8
-#EXTINF:-1 tvg-id="ARB24.az@SD" tvg-logo="https://yoda.az/logos/arb24.svg",ARB 24
-https://operativmm.az/tvs/arb24/stream/index.m3u8
-#EXTINF:-1 tvg-id="ARB24.az@SD" tvg-logo="https://yoda.az/logos/arb24.svg",ARB 24
+#EXTINF:-1 tvg-id="ARB24.az@SD",ARB 24
 #EXTVLCOPT:http-referrer=https://tvstream.az/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://az.tvstream.az/hls/stream5/stream.m3u8
-#EXTINF:-1 tvg-id="ARB24.az@HD" tvg-logo="https://yoda.az/logos/arb24.svg",ARB 24 HD
+#EXTINF:-1 tvg-id="ARB24.az@HD",ARB 24 HD
 http://185.32.44.154:80/arb24/index.m3u8
-#EXTINF:-1 tvg-id="CBC.az@HD" tvg-logo="https://yoda.az/logos/cbc.svg",CBC
+#EXTINF:-1 tvg-id="CBC.az@HD",CBC
 http://185.118.50.218:80/cbc/video.m3u8
