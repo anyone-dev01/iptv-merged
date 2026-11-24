@@ -1,9 +1,11 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="ARB24.az@SD" tvg-logo="https://i.imgur.com/mtvIFyq.png" group-title="News",ARB 24 (720p)
-https://operativmm.az/tvs/arb24/stream/index.m3u8
-#EXTINF:-1 tvg-id="AyazTV.az@SD" tvg-logo="https://www.ayaztv.com/storage/assets/site_logo.png" group-title="General",Ayaz TV (1080p)
-https://janya-ayaztv.vgcdn.net/ptnr-WebApp/title-Ayaz_TV/v1/vglive-sk-934820/main.m3u8
-#EXTINF:-1 tvg-id="AzTV.az@SD" tvg-logo="https://i.imgur.com/snBMMeH.png" http-referrer="https://tvstream.az/" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" group-title="General",Az TV (720p)
+#EXTINF:-1 tvg-id="ARB24.az@SD" tvg-logo="https://i.imgur.com/mtvIFyq.png" http-referrer="https://tvstream.az/" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" group-title="News",ARB 24
+#EXTVLCOPT:http-referrer=https://tvstream.az/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+https://az.tvstream.az/hls/stream5/stream.m3u8
+#EXTINF:-1 tvg-id="AyazTV.az@SD" tvg-logo="https://www.ayaztv.com/storage/assets/site_logo.png" group-title="General",Ayaz TV
+https://janya-ayaztv.vgcdn.net/ptnr-WebApp/title-Ayaz_TV/v1/vglive-sk-934820/720p/720p.m3u8
+#EXTINF:-1 tvg-id="AzTV.az@SD" tvg-logo="https://i.imgur.com/snBMMeH.png" http-referrer="https://tvstream.az/" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" group-title="General",Az TV
 #EXTVLCOPT:http-referrer=https://tvstream.az/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://az.tvstream.az/hls/stream9/index.m3u8
@@ -11,6 +13,8 @@ https://az.tvstream.az/hls/stream9/index.m3u8
 https://cbcsports-live.lg.mncdn.com/cbcsports_live/cbcsports/playlist.m3u8
 #EXTINF:-1 tvg-id="KanalS.az@SD" tvg-logo="https://raw.githubusercontent.com/songwenhui239/Songwenhui239/refs/heads/main/Kanal%20S.png" group-title="General",Kanal S
 https://lives.atv.az:5443/KANAL-S/streams/kanals.m3u8
+#EXTINF:-1 tvg-id="KNMusicTV.az@SD" tvg-logo="https://www.knmusictv.com/wp-content/uploads/2026/01/LOGO2112.png" group-title="Music",KN Music TV (1080p)
+https://cdn4.yayin.com.tr/kntv/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-name="AzStarTV" tvg-logo="https://i.imgur.com/di3XX5L.png" tvg-id="AzStarTV.ca" tvg-country="AZ" group-title="Azerbaijan",AzStarTV
 http://live.azstartv.com/azstar/smil:azstar.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="AZTV" tvg-logo="https://i.imgur.com/snBMMeH.png" tvg-id="AZTV.az" tvg-country="AZ" group-title="Azerbaijan",AZTV Ⓢ
@@ -40,17 +44,15 @@ https://edge-rs-01.maksnet.tv/cubesanewz-secure/smil:cubesanewz-secure.smil/play
 #EXTINF:-1 tvg-id="APATV.az",APA TV
 http://stream.apa.tv/apastream/index.m3u8
 #EXTINF:-1 tvg-id="ARB24.az@SD",ARB 24
-#EXTVLCOPT:http-referrer=https://tvstream.az/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-https://az.tvstream.az/hls/stream5/stream.m3u8
+https://operativmm.az/tvs/arb24/stream/index.m3u8
 #EXTINF:-1 tvg-id="ARB24.az@HD",ARB 24 HD [Geo-blocked]
 http://185.32.44.154/arb24/index.m3u8
 #EXTINF:-1 tvg-id="ARBGunesh.az@HD",ARB Gunesh [Geo-blocked]
 http://185.118.50.218/arbgunesh/video.m3u8
 #EXTINF:-1 tvg-id="AyazTV.az@SD",Ayaz TV
-https://janya-ayaztv.vgcdn.net/ptnr-WebApp/title-Ayaz_TV/v1/vglive-sk-934820/720p/720p.m3u8
-#EXTINF:-1 tvg-id="AyazTV.az@SD",Ayaz TV
 https://janya-ayaztv.vgcdn.net/ptnr-WebApp/title-Ayaz_TV/v1/vglive-sk-934820/1080p/1080p.m3u8
+#EXTINF:-1 tvg-id="AyazTV.az@SD",Ayaz TV
+https://janya-ayaztv.vgcdn.net/ptnr-WebApp/title-Ayaz_TV/v1/vglive-sk-934820/main.m3u8
 #EXTINF:-1 tvg-id="AzTV.az@SD",Az TV
 https://operativmm.az/tvs/az/stream9/index.m3u8
 #EXTINF:-1 tvg-id="AzTV.az@SD",Az TV
@@ -104,11 +106,11 @@ https://rtmp.showplus.tv/hls/myshow.m3u8
 #EXTINF:-1 tvg-id="SonUmidTV.az@SD",Son Umid TV
 https://cdn-sonumidtv.yayin.com.tr/sonumidtv/sonumidtv/chunklist.m3u8
 #EXTINF:-1 tvg-id="SpaceTV.az",Space TV
-https://operativmm.az/tvs/space/stream8/index.m3u8
-#EXTINF:-1 tvg-id="SpaceTV.az",Space TV
 #EXTVLCOPT:http-referrer=https://tvstream.az/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://az.tvstream.az/hls/stream8/stream.m3u8
+#EXTINF:-1 tvg-id="SpaceTV.az",Space TV
+https://operativmm.az/tvs/space/stream8/index.m3u8
 #EXTINF:-1 tvg-id="TV1.az@SD",TV 1
 https://telecast.srthub.net/hls/20850e6a-19a8-df31-6690-7e8af2cdf531/streams/v3/play.m3u8
 #EXTINF:-1 tvg-id="UlduzMusicAZ.az@SD",Ulduz Music AZ
